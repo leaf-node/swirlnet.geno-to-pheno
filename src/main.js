@@ -18,7 +18,7 @@ var genoToPheno, util, swirlnetPhenotypeVersion, assert;
 util = require('swirlnet.util');
 assert = require('assert');
 
-swirlnetPhenotypeVersion = "0.0";
+swirlnetPhenotypeVersion = "0";
 
 // converts between swirlnetGenome and swirlnetPhenotype
 genoToPheno = function (swirlnetGenome) {
@@ -40,7 +40,7 @@ genoToPheno = function (swirlnetGenome) {
 
     assert(genome.format === "swirlnetGenome",
             "swirlnet: internal error: invalid format: " + genome.format);
-    assert(genome.version === "0.0",
+    assert(genome.version === "0",
             "swirlnet: internal error: invalid genome version: " + genome.version);
     assert(genome.type === "classic",
             "swirlnet: internal error: invalid genome type: " + genome.type);

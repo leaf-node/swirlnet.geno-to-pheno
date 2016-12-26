@@ -10,7 +10,7 @@
     ],
   "dependencies": {
       "swirlnet.util": "1.0.x",
-      "assert": "1.x"
+      "assert": "1.4.x"
   },
   "keywords": [
     "swirlnet",

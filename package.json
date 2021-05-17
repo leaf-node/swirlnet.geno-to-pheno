@@ -2,8 +2,8 @@
   "name": "swirlnet.geno-to-pheno",
   "version": "1.0.0",
   "description": "Convert swirlnet genomes to phenotypes",
-  "url": "https://gitlab.com/sudoman/swirlnet.geno-to-pheno/issues",
-  "repository": "gitlab:sudoman/swirlnet.geno-to-pheno",
+  "url": "https://github.com/leaf-node/swirlnet.geno-to-pheno/issues",
+  "repository": "github:leaf-node/swirlnet.geno-to-pheno",
   "main": "src/main.js",
   "files": [
       "src",
